@@ -46,15 +46,6 @@ export const kioskApps: KioskApp[] = [
     textColor: "text-indigo-50",
   },
   {
-    id: "medications",
-    name: "Medications",
-    description: "Medication reminders",
-    icon: "💊",
-    href: "/medications",
-    color: "bg-rose-700",
-    textColor: "text-rose-50",
-  },
-  {
     id: "contacts",
     name: "Contacts",
     description: "Important family contacts",
