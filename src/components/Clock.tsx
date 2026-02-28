@@ -33,20 +33,20 @@ export default function Clock() {
   if (!now) {
     return (
       <div className="text-center">
-        <p className="text-7xl font-thin tracking-widest text-white opacity-0">
+        <p className="text-7xl font-thin tracking-widest text-slate-800 opacity-0">
           &nbsp;
         </p>
-        <p className="text-xl text-amber-200 opacity-0">&nbsp;</p>
+        <p className="text-xl text-slate-500 opacity-0">&nbsp;</p>
       </div>
     );
   }
 
   return (
     <div className="text-center" aria-live="polite" aria-atomic="true">
-      <p className="text-7xl font-thin tracking-widest text-white">
+      <p className="text-7xl font-thin tracking-widest text-slate-800">
         {formatTime(now)}
       </p>
-      <p className="text-xl text-amber-200 mt-1">{formatDate(now)}</p>
+      <p className="text-xl text-slate-500 mt-1">{formatDate(now)}</p>
     </div>
   );
 }

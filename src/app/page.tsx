@@ -8,7 +8,7 @@ export default function Home() {
       {/* Header: Clock */}
       <header className="flex flex-col items-center justify-center pt-4">
         <Clock />
-        <h1 className="text-2xl font-semibold text-amber-300 mt-6 tracking-widest uppercase">
+        <h1 className="text-2xl font-semibold text-slate-600 mt-6 tracking-widest uppercase">
           Family Kiosk
         </h1>
       </header>
@@ -24,7 +24,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="text-center text-amber-800 text-sm pb-2">
+      <footer className="text-center text-slate-400 text-sm pb-2">
         <p>Family Kiosk</p>
       </footer>
     </main>
