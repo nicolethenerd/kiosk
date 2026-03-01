@@ -1,8 +1,7 @@
 import Link from "next/link";
 
 export default function CalendarPage() {
-  const calendarSrc =
-    "https://calendar.google.com/calendar/embed?src=YOUR_CALENDAR_ID%40group.calendar.google.com&ctz=America%2FNew_York";
+  const calendarSrc = process.env.FAMILY_CALENDAR_SRC;
 
   return (
     <main className="min-h-screen flex flex-col items-center gap-6 px-8 py-8 bg-blue-950">
