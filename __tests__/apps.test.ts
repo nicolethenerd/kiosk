@@ -11,15 +11,11 @@ describe("kioskApps config", () => {
       expect(app.name).toBeTruthy();
       expect(app.description).toBeTruthy();
       expect(app.icon).toBeTruthy();
-      expect(app.href).toBeTruthy();
       expect(app.color).toBeTruthy();
       expect(app.textColor).toBeTruthy();
-    });
-  });
-
-  it("every app href starts with /", () => {
-    kioskApps.forEach((app) => {
-      expect(app.href).toMatch(/^\//);
+      expect(app.panelBg).toBeTruthy();
+      expect(app.panelTitleColor).toBeTruthy();
+      expect(app.panelTextColor).toBeTruthy();
     });
   });
 
@@ -32,12 +28,12 @@ describe("kioskApps config", () => {
   it("includes Recipes app", () => {
     const recipes = kioskApps.find((a) => a.id === "recipes");
     expect(recipes).toBeDefined();
-    expect(recipes?.href).toBe("/recipes");
+    expect(recipes?.name).toBe("Recipes");
   });
 
   it("includes Calendar app", () => {
     const calendar = kioskApps.find((a) => a.id === "calendar");
     expect(calendar).toBeDefined();
-    expect(calendar?.href).toBe("/calendar");
+    expect(calendar?.name).toBe("Calendar");
   });
 });
