@@ -15,7 +15,7 @@ export const kioskApps: KioskApp[] = [
     description: "Browse and manage family recipes",
     icon: "🍽️",
     href: "/recipes",
-    color: "bg-orange-500",
+    color: "bg-orange-700",
     textColor: "text-orange-50",
   },
   {
@@ -24,7 +24,7 @@ export const kioskApps: KioskApp[] = [
     description: "Shared household calendar",
     icon: "📅",
     href: "/calendar",
-    color: "bg-blue-500",
+    color: "bg-blue-700",
     textColor: "text-blue-50",
   },
   {
@@ -33,8 +33,8 @@ export const kioskApps: KioskApp[] = [
     description: "Grocery & shopping list manager",
     icon: "🛒",
     href: "/shopping",
-    color: "bg-green-500",
-    textColor: "text-green-50",
+    color: "bg-emerald-700",
+    textColor: "text-emerald-50",
   },
   {
     id: "chores",
@@ -42,17 +42,8 @@ export const kioskApps: KioskApp[] = [
     description: "Household task tracker",
     icon: "✅",
     href: "/chores",
-    color: "bg-purple-500",
-    textColor: "text-purple-50",
-  },
-  {
-    id: "medications",
-    name: "Medications",
-    description: "Medication reminders",
-    icon: "💊",
-    href: "/medications",
-    color: "bg-red-500",
-    textColor: "text-red-50",
+    color: "bg-indigo-700",
+    textColor: "text-indigo-50",
   },
   {
     id: "contacts",
@@ -60,7 +51,7 @@ export const kioskApps: KioskApp[] = [
     description: "Important family contacts",
     icon: "📞",
     href: "/contacts",
-    color: "bg-teal-500",
+    color: "bg-teal-700",
     textColor: "text-teal-50",
   },
 ];
