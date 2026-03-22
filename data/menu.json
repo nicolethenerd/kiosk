@@ -1,0 +1,48 @@
+{
+  "breakfast": [
+    "Oatmeal",
+    "Toast with peanut butter and banana",
+    "Smoothie",
+    "Scrambled eggs or omelet",
+    "Avocado toast",
+    "Yogurt parfait",
+    "Pancakes / crepes"
+  ],
+  "lunchDinner": [
+    "Pasta",
+    "Rice",
+    "Beans",
+    "Quinoa",
+    "Lentils",
+    "Wraps",
+    "Quesadilla",
+    "Tofu",
+    "Sweet potato",
+    "Veggies",
+    "Nuggets",
+    "Soup",
+    "Fritatta/quiche",
+    "Chickpeas",
+    "Salad",
+    "Naan pizza",
+    "Peanut butter & jelly wrap",
+    "Yogurt"
+  ],
+  "snacks": [
+    "Apple slices & peanut butter",
+    "Hummus & carrots",
+    "Bell peppers",
+    "Yogurt",
+    "Energy balls",
+    "Spinach balls",
+    "Freeze dried fruit"
+  ],
+  "dessert": [
+    "Nice cream / sorbet",
+    "Muma parfait",
+    "Chickpea cookie dough",
+    "Raspberry parfait",
+    "Frozen fruit",
+    "Chia pudding"
+  ]
+}

@@ -1,5 +1,6 @@
 import Clock from "@/components/Clock";
 import KioskTile from "@/components/KioskTile";
+import Menu from "@/components/Menu";
 
 const GOOGLE_CALENDAR_URL = process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_URL;
 
@@ -23,6 +24,9 @@ export default function Home() {
               <code className="ml-1 font-mono text-sm">app/page.tsx</code>
             </div>
           )}
+        </KioskTile>
+        <KioskTile title="Menu">
+          <Menu />
         </KioskTile>
       </div>
     </main>
