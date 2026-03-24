@@ -1,0 +1,38 @@
+[
+  {
+    "id": "test",
+    "message": "This is a test announcement.",
+    "schedule": "21 11 * * *",
+    "enabled": true
+  },
+  {
+    "id": "bath-time",
+    "message": "It's bath time!",
+    "schedule": "30 19 * * *",
+    "enabled": true
+  },
+  {
+    "id": "story-time",
+    "message": "It's story time!",
+    "schedule": "0 20 * * *",
+    "enabled": true
+  },
+  {
+    "id": "bed-time",
+    "message": "It's bed time!",
+    "schedule": "30 20 * * *",
+    "enabled": true
+  },
+  {
+    "id": "wheels-up-warning",
+    "message": "Wheels up in 4 minutes!",
+    "schedule": "20 8 * * 1-5",
+    "enabled": true
+  },
+  {
+    "id": "wheels-up",
+    "message": "Wheels up!",
+    "schedule": "24 8 * * 1-5",
+    "enabled": true
+  }
+]

@@ -1,3 +1,4 @@
+import Announcements from "@/components/Announcements";
 import Clock from "@/components/Clock";
 import KioskTile from "@/components/KioskTile";
 import Menu from "@/components/Menu";
@@ -8,6 +9,7 @@ export default function Home() {
   return (
     <main className="min-h-screen p-4 bg-neutral-50 dark:bg-neutral-950">
       <div className="max-w-screen-xl mx-auto h-full grid gap-4">
+        <Announcements />
         <Clock />
         <KioskTile title="Calendar" className="min-h-[600px]">
           {GOOGLE_CALENDAR_URL ? (
