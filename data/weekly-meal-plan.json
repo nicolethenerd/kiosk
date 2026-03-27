@@ -1,0 +1,37 @@
+{
+  "monday": {
+    "breakfast": "Oatmeal with banana & honey",
+    "lunch": "Peanut butter & jelly wrap",
+    "dinner": "Pasta with marinara sauce"
+  },
+  "tuesday": {
+    "breakfast": "Scrambled eggs & toast",
+    "lunch": "Quesadilla with cheese & beans",
+    "dinner": "Lentil soup with naan"
+  },
+  "wednesday": {
+    "breakfast": "Yogurt parfait with granola",
+    "lunch": "Hummus & veggie wraps",
+    "dinner": "Rice bowls with tofu & veggies"
+  },
+  "thursday": {
+    "breakfast": "Pancakes with fruit",
+    "lunch": "Naan pizza",
+    "dinner": "Sweet potato & black bean tacos"
+  },
+  "friday": {
+    "breakfast": "Smoothie & toast",
+    "lunch": "Grilled cheese & tomato soup",
+    "dinner": "Veggie nuggets & roasted broccoli"
+  },
+  "saturday": {
+    "breakfast": "Avocado toast & fruit",
+    "lunch": "Chickpea salad wraps",
+    "dinner": "Homemade pizza"
+  },
+  "sunday": {
+    "breakfast": "Crepes with berries",
+    "lunch": "Quinoa bowls with roasted veggies",
+    "dinner": "Frittata with salad"
+  }
+}

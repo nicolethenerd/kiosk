@@ -2,6 +2,7 @@ import Announcements from "@/components/Announcements";
 import Clock from "@/components/Clock";
 import KioskTile from "@/components/KioskTile";
 import Menu from "@/components/Menu";
+import WeeklyMealPlan from "@/components/WeeklyMealPlan";
 
 const GOOGLE_CALENDAR_URL = process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_URL;
 
@@ -29,6 +30,9 @@ export default function Home() {
         </KioskTile>
         <KioskTile title="Menu">
           <Menu />
+        </KioskTile>
+        <KioskTile title="Weekly Meal Plan">
+          <WeeklyMealPlan />
         </KioskTile>
       </div>
     </main>
